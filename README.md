@@ -63,7 +63,8 @@ CAN1で通信する．
 
 ## プログラム概要
 ### setup()
-Hello WorldとPCに送信
+Hello WorldとPCに送信\
+CANのスタート
 ### loop()
 now = HAL_GetTick()
 #### 0.1秒ごとに

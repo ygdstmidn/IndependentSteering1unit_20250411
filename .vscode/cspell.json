@@ -8,6 +8,7 @@
         "GPIOA",
         "GPIOB",
         "GPIOC",
+        "hcan",
         "huart",
         "NUCLEO",
         "USART"
