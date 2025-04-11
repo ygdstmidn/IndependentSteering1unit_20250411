@@ -11,6 +11,10 @@ extern "C"
 #include "usart.h"
 #include "gpio.h"
 
+#include "DitelMotorDriverController/DitelMotorDriverController.h"
+
+#include "definition.h"
+
     // MARK:setup
     void user_setup(void)
     {
@@ -28,6 +32,7 @@ extern "C"
 
         if (now - pre >= 10)
         {
+            DitelMotor(&hcan1,SODA_MOTOR_ADDRESS,10);
             pre = now;
         }
     }
