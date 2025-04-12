@@ -32,7 +32,6 @@ extern "C"
 
         if (now - pre >= 10)
         {
-            DitelMotor(&hcan1,SODA_MOTOR_ADDRESS,-800);
             pre = now;
         }
     }
