@@ -11,11 +11,17 @@ extern "C"
 #include "usart.h"
 #include "gpio.h"
 
+#include "DitelMotorDriverController/DitelMotorDriverController.h"
+
+#include "definition.h"
+
     // MARK:setup
     void user_setup(void)
     {
         setbuf(stdout, NULL);
         printf("Hello World!!\n");
+
+        HAL_CAN_Start(&hcan1);
     }
 
     // MARK:loop

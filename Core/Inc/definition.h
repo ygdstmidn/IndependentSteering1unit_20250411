@@ -1,0 +1,2 @@
+#define KUDO_MOTOR_ADDRESS 1
+#define SODA_MOTOR_ADDRESS 2
